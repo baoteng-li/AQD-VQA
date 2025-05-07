@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Atomic Question Decomposition for Visual Question Answering
 
 Code for our paper "Atomic Question Decomposition for Visual Question Answering".
@@ -82,3 +83,6 @@ python evaluation_introspect_llava.py
 
 
 
+=======
+# AQD-VQA
+>>>>>>> 1a6ae19b18b19b178435d58a70b8d4d0b1413fa8

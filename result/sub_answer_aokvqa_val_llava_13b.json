@@ -1,0 +1,204 @@
+[
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000461751.jpg",
+  "question": "What is in the motorcyclist's mouth?",
+  "tuples": [
+   "1 | Entity - whole(motorcyclist) - what",
+   "2 | Entity - part(motorcyclist, mouth) - what",
+   "3 | Attribute - content(motorcyclist's mouth, what) - what"
+  ],
+  "sub_questions": [
+   "1 | Who is this motorcyclist?",
+   "2 | What is the motorcyclist's mouth?",
+   "3 | What is the motorcyclist chewing?"
+  ],
+  "sub_answer": [
+   "The motorcyclist is a man.",
+   "The motorcyclist's mouth is open.",
+   "The motorcyclist is chewing on a toothpick."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000377368.jpg",
+  "question": "Which number birthday is probably being celebrated?",
+  "tuples": [
+   "1 | Entity - whole(birthday) - which",
+   "2 | Attribute - number(birthday, number) - which"
+  ],
+  "sub_questions": [
+   "1 | Whose birthday is being celebrated?",
+   "2 | Which number birthday is this?"
+  ],
+  "sub_answer": [
+   "The birthday being celebrated is for a 29-year-old.",
+   "29th"
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000563603.jpg",
+  "question": "What best describes the pool of water?",
+  "tuples": [
+   "1 | Entity - whole(pool of water) - what",
+   "2 | Attribute - description(pool of water, what) - what"
+  ],
+  "sub_questions": [
+   "1 | What is this pool of water?",
+   "2 | What is the pool of water like?"
+  ],
+  "sub_answer": [
+   "The pool of water is a small pond, which is located near a tree and a group of giraffes.",
+   "The pool of water is small and shallow, with a reflection of the giraffes visible in it."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000329542.jpg",
+  "question": "What is the white substance on top of the cupcakes?",
+  "tuples": [
+   "1 | Entity - whole(substance) - what",
+   "2 | Entity - part(cupcakes, top) - what",
+   "3 | Attribute - colour(substance, white) - what",
+   "4 | Relation - location(substance, on, cupcakes) - what"
+  ],
+  "sub_questions": [
+   "1 | What is this substance?",
+   "2 | What's on top of the cupcakes?",
+   "3 | What is the white substance?",
+   "4 | What is on the cupcakes?"
+  ],
+  "sub_answer": [
+   "The white substance on the cupcakes is frosting.",
+   "Cherries",
+   "Frosting",
+   "The cupcakes have pink frosting and red cherries on top."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000182202.jpg",
+  "question": "What type of device is sitting next to the laptop?",
+  "tuples": [
+   "1 | Entity - whole(device) - what",
+   "2 | Entity - whole(laptop) - what",
+   "3 | Entity - location(device, next to) - what",
+   "4 | Attribute - type(device, what) - what"
+  ],
+  "sub_questions": [
+   "1 | What's that device next to the laptop?",
+   "2 | What is this laptop?",
+   "3 | What is next to the laptop?",
+   "4 | What kind of device is this?"
+  ],
+  "sub_answer": [
+   "Cell phone",
+   "The laptop is a silver MacBook.",
+   "Cell phone",
+   "Laptop"
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000198960.jpg",
+  "question": "The thing on the animal to the left's head is similar to what is on the head of what else?",
+  "tuples": [
+   "1 | Entity - whole(animal) - what",
+   "2 | Entity - part(animal, head) - what",
+   "3 | Entity - whole(thing) - what",
+   "4 | Entity - whole(else) - what",
+   "5 | Attribute - similarity(thing, what, on head of else) - what"
+  ],
+  "sub_questions": [
+   "1 | What animal is this?",
+   "2 | What is on the head of this animal?",
+   "3 | What is this thing on the animal's head?",
+   "4 | What else has a similar thing on its head?",
+   "5 | What is similar to this thing on the animal's head?"
+  ],
+  "sub_answer": [
+   "Sheep",
+   "Horns",
+   "Horns",
+   "The sheep in the middle has a similar thing on its head as the sheep on the right. Both of them have horns.",
+   "The horns on the animal's head are similar to the horns on the animal in the background."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000257169.jpg",
+  "question": "What is the appliance the woman is holding used for?",
+  "tuples": [
+   "1 | Entity - whole(woman) - what",
+   "2 | Entity - whole(appliance) - what",
+   "3 | Attribute - action(appliance, used for) - what",
+   "4 | Relation - action(woman, holding, appliance) - what"
+  ],
+  "sub_questions": [
+   "1 | What does this woman do?",
+   "2 | What appliance is she holding?",
+   "3 | What is the appliance used for?",
+   "4 | What is the woman holding?"
+  ],
+  "sub_answer": [
+   "The woman is holding a hair dryer and drying her hair.",
+   "The woman is holding a blow dryer, which is an appliance used for drying hair.",
+   "Drying hair",
+   "The woman is holding a hair dryer."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000004795.jpg",
+  "question": "What is the descriptive word for this surface?",
+  "tuples": [
+   "1 | Entity - whole(surface) - what",
+   "2 | Attribute - property(surface, what) - what"
+  ],
+  "sub_questions": [
+   "1 | What is this surface?",
+   "2 | What is the surface like?"
+  ],
+  "sub_answer": [
+   "Desk",
+   "The surface is a wooden desk."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000341196.jpg",
+  "question": "What is the person on the left doing with their body?",
+  "tuples": [
+   "1 | Entity - whole(person) - what",
+   "2 | Entity - part(person, left) - what",
+   "3 | Entity - whole(body) - what",
+   "4 | Attribute - action(body, what) - what"
+  ],
+  "sub_questions": [
+   "1 | Who is this person?",
+   "2 | What is the left side of this person?",
+   "3 | What is this person's body doing?",
+   "4 | What is the person doing with their body?"
+  ],
+  "sub_answer": [
+   "Surfer",
+   "Surfboard",
+   "The person is riding a wave on a surfboard, skillfully navigating the water and enjoying the thrill of surfing.",
+   "The person is leaning back on their surfboard while riding a wave."
+  ]
+ },
+ {
+  "image_path": "/home/libaoteng/cqc/aokvqa_val_images/000000163640.jpg",
+  "question": "What type of pants is the man on the right wearing?",
+  "tuples": [
+   "1 | Entity - whole(man) - what",
+   "2 | Entity - part(man, right) - what",
+   "3 | Entity - part(man, pants) - what",
+   "4 | Attribute - type(pants, what) - what"
+  ],
+  "sub_questions": [
+   "1 | Who is the man on the right?",
+   "2 | Which man is on the right?",
+   "3 | What are the pants of the man on the right?",
+   "4 | What kind of pants is the man on the right wearing?"
+  ],
+  "sub_answer": [
+   "The man on the right is the one wearing jeans.",
+   "The man on the right is the one wearing a black shirt.",
+   "The man on the right is wearing jeans.",
+   "The man on the right is wearing jeans."
+  ]
+ }
+]
